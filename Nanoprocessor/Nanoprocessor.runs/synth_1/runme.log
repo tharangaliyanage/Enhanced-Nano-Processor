@@ -1,0 +1,707 @@
+
+*** Running vivado
+    with args -log EnclosureNanoProcessor.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source EnclosureNanoProcessor.tcl
+
+
+****** Vivado v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source EnclosureNanoProcessor.tcl -notrace
+Command: synth_design -top EnclosureNanoProcessor -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8688 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 410.094 ; gain = 96.285
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'EnclosureNanoProcessor' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/EnclosureNanoProcessor.vhd:49]
+INFO: [Synth 8-3491] module 'Processor' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Processor.vhd:34' bound to instance 'NanoProcessor_0' of component 'Processor' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/EnclosureNanoProcessor.vhd:96]
+INFO: [Synth 8-638] synthesizing module 'Processor' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Processor.vhd:48]
+INFO: [Synth 8-3491] module 'Slow_Clk' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Slow_Clk.vhd:34' bound to instance 'Slow_Clk_0' of component 'Slow_Clk' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Processor.vhd:169]
+INFO: [Synth 8-638] synthesizing module 'Slow_Clk' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Slow_Clk.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Slow_Clk' (1#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Slow_Clk.vhd:39]
+INFO: [Synth 8-3491] module 'Ins_Decoder' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Ins_Decoder.vhd:34' bound to instance 'Ins_Decoder_0' of component 'Ins_Decoder' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Processor.vhd:176]
+INFO: [Synth 8-638] synthesizing module 'Ins_Decoder' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Ins_Decoder.vhd:47]
+INFO: [Synth 8-256] done synthesizing module 'Ins_Decoder' (2#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Ins_Decoder.vhd:47]
+INFO: [Synth 8-3491] module 'RAM' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RAM.vhd:67' bound to instance 'RAM_0' of component 'RAM' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Processor.vhd:189]
+INFO: [Synth 8-638] synthesizing module 'RAM' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RAM.vhd:79]
+INFO: [Synth 8-3491] module 'Mux_16_to_1_16bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16_to_1_16bit.vhd:34' bound to instance 'Mux_16_to_1_16bit_0' of component 'Mux_16_to_1_16bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RAM.vhd:189]
+INFO: [Synth 8-638] synthesizing module 'Mux_16_to_1_16bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16_to_1_16bit.vhd:57]
+INFO: [Synth 8-3491] module 'Mux_16way_1bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_1bit.vhd:34' bound to instance 'Mux_16way_1bit_0' of component 'Mux_16way_1bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16_to_1_16bit.vhd:68]
+INFO: [Synth 8-638] synthesizing module 'Mux_16way_1bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_1bit.vhd:42]
+INFO: [Synth 8-3491] module 'Decoder_4_to16' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Decoder_4_to16.vhd:34' bound to instance 'Decoder_4_to16_0' of component 'Decoder_4_to16' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_1bit.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'Decoder_4_to16' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Decoder_4_to16.vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Decoder_3_to_8.vhd:34' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Decoder_4_to16.vhd:52]
+INFO: [Synth 8-638] synthesizing module 'Decoder_3_to_8' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Decoder_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_0' of component 'Decoder_2_to_4' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Decoder_3_to_8.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'Decoder_2_to_4' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Decoder_2_to_4.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_2_to_4' (3#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Decoder_2_to_4.vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_2_to_4' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Decoder_2_to_4.vhd:34' bound to instance 'Decoder_2_to_4_1' of component 'Decoder_2_to_4' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Decoder_3_to_8.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_3_to_8' (4#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Decoder_3_to_8.vhd:40]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Decoder_3_to_8.vhd:34' bound to instance 'Decoder_3_to_8_1' of component 'Decoder_3_to_8' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Decoder_4_to16.vhd:58]
+INFO: [Synth 8-256] done synthesizing module 'Decoder_4_to16' (5#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Decoder_4_to16.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'Mux_16way_1bit' (6#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_1bit.vhd:42]
+INFO: [Synth 8-3491] module 'Mux_16way_1bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_1bit.vhd:34' bound to instance 'Mux_16way_1bit_1' of component 'Mux_16way_1bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16_to_1_16bit.vhd:91]
+INFO: [Synth 8-3491] module 'Mux_16way_1bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_1bit.vhd:34' bound to instance 'Mux_16way_1bit_2' of component 'Mux_16way_1bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16_to_1_16bit.vhd:114]
+INFO: [Synth 8-3491] module 'Mux_16way_1bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_1bit.vhd:34' bound to instance 'Mux_16way_1bit_3' of component 'Mux_16way_1bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16_to_1_16bit.vhd:137]
+INFO: [Synth 8-3491] module 'Mux_16way_1bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_1bit.vhd:34' bound to instance 'Mux_16way_1bit_4' of component 'Mux_16way_1bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16_to_1_16bit.vhd:160]
+INFO: [Synth 8-3491] module 'Mux_16way_1bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_1bit.vhd:34' bound to instance 'Mux_16way_1bit_5' of component 'Mux_16way_1bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16_to_1_16bit.vhd:183]
+INFO: [Synth 8-3491] module 'Mux_16way_1bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_1bit.vhd:34' bound to instance 'Mux_16way_1bit_6' of component 'Mux_16way_1bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16_to_1_16bit.vhd:206]
+INFO: [Synth 8-3491] module 'Mux_16way_1bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_1bit.vhd:34' bound to instance 'Mux_16way_1bit_7' of component 'Mux_16way_1bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16_to_1_16bit.vhd:229]
+INFO: [Synth 8-3491] module 'Mux_16way_1bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_1bit.vhd:34' bound to instance 'Mux_16way_1bit_8' of component 'Mux_16way_1bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16_to_1_16bit.vhd:252]
+INFO: [Synth 8-3491] module 'Mux_16way_1bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_1bit.vhd:34' bound to instance 'Mux_16way_1bit_9' of component 'Mux_16way_1bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16_to_1_16bit.vhd:276]
+INFO: [Synth 8-3491] module 'Mux_16way_1bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_1bit.vhd:34' bound to instance 'Mux_16way_1bit_10' of component 'Mux_16way_1bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16_to_1_16bit.vhd:299]
+INFO: [Synth 8-3491] module 'Mux_16way_1bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_1bit.vhd:34' bound to instance 'Mux_16way_1bit_11' of component 'Mux_16way_1bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16_to_1_16bit.vhd:322]
+INFO: [Synth 8-3491] module 'Mux_16way_1bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_1bit.vhd:34' bound to instance 'Mux_16way_1bit_12' of component 'Mux_16way_1bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16_to_1_16bit.vhd:345]
+INFO: [Synth 8-3491] module 'Mux_16way_1bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_1bit.vhd:34' bound to instance 'Mux_16way_1bit_13' of component 'Mux_16way_1bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16_to_1_16bit.vhd:368]
+INFO: [Synth 8-3491] module 'Mux_16way_1bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_1bit.vhd:34' bound to instance 'Mux_16way_1bit_14' of component 'Mux_16way_1bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16_to_1_16bit.vhd:391]
+INFO: [Synth 8-3491] module 'Mux_16way_1bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_1bit.vhd:34' bound to instance 'Mux_16way_1bit_15' of component 'Mux_16way_1bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16_to_1_16bit.vhd:415]
+INFO: [Synth 8-256] done synthesizing module 'Mux_16_to_1_16bit' (7#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16_to_1_16bit.vhd:57]
+INFO: [Synth 8-3491] module 'Decoder_4_to16' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Decoder_4_to16.vhd:34' bound to instance 'Decoder_4_to_16_0' of component 'Decoder_4_to16' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RAM.vhd:214]
+INFO: [Synth 8-3491] module 'Reg_16Bit0' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_16bit0.vhd:34' bound to instance 'R0' of component 'Reg_16bit0' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RAM.vhd:221]
+INFO: [Synth 8-638] synthesizing module 'Reg_16Bit0' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_16bit0.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Reg_16Bit0' (8#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_16bit0.vhd:42]
+INFO: [Synth 8-3491] module 'Reg_16Bit1' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit1.vhd:34' bound to instance 'R1' of component 'Reg_16bit1' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RAM.vhd:230]
+INFO: [Synth 8-638] synthesizing module 'Reg_16Bit1' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit1.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Reg_16Bit1' (9#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit1.vhd:42]
+INFO: [Synth 8-3491] module 'Reg_16Bit2' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit2.vhd:34' bound to instance 'R2' of component 'Reg_16bit2' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RAM.vhd:239]
+INFO: [Synth 8-638] synthesizing module 'Reg_16Bit2' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit2.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Reg_16Bit2' (10#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit2.vhd:42]
+INFO: [Synth 8-3491] module 'Reg_16Bit3' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/new/REg_16Bit3.vhd:34' bound to instance 'R3' of component 'Reg_16bit3' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RAM.vhd:248]
+INFO: [Synth 8-638] synthesizing module 'Reg_16Bit3' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/new/REg_16Bit3.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Reg_16Bit3' (11#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/new/REg_16Bit3.vhd:42]
+INFO: [Synth 8-3491] module 'Reg_16Bit4' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit4.vhd:34' bound to instance 'R4' of component 'Reg_16bit4' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RAM.vhd:257]
+INFO: [Synth 8-638] synthesizing module 'Reg_16Bit4' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit4.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Reg_16Bit4' (12#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit4.vhd:42]
+INFO: [Synth 8-3491] module 'Reg_16Bit5' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit5.vhd:34' bound to instance 'R5' of component 'Reg_16bit5' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RAM.vhd:266]
+INFO: [Synth 8-638] synthesizing module 'Reg_16Bit5' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit5.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Reg_16Bit5' (13#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit5.vhd:42]
+INFO: [Synth 8-3491] module 'Reg_16Bit6' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit6.vhd:34' bound to instance 'R6' of component 'Reg_16bit6' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RAM.vhd:275]
+INFO: [Synth 8-638] synthesizing module 'Reg_16Bit6' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit6.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Reg_16Bit6' (14#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit6.vhd:42]
+INFO: [Synth 8-3491] module 'Reg_16Bit7' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit7.vhd:34' bound to instance 'R7' of component 'Reg_16bit7' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RAM.vhd:284]
+INFO: [Synth 8-638] synthesizing module 'Reg_16Bit7' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit7.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Reg_16Bit7' (15#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit7.vhd:42]
+INFO: [Synth 8-3491] module 'Reg_16bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_16bit.vhd:34' bound to instance 'R8' of component 'Reg_16bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RAM.vhd:293]
+INFO: [Synth 8-638] synthesizing module 'Reg_16bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_16bit.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Reg_16bit' (16#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_16bit.vhd:42]
+INFO: [Synth 8-3491] module 'Reg_16bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_16bit.vhd:34' bound to instance 'R9' of component 'Reg_16bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RAM.vhd:303]
+INFO: [Synth 8-3491] module 'Reg_16bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_16bit.vhd:34' bound to instance 'R10' of component 'Reg_16bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RAM.vhd:312]
+INFO: [Synth 8-3491] module 'Reg_16bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_16bit.vhd:34' bound to instance 'R11' of component 'Reg_16bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RAM.vhd:320]
+INFO: [Synth 8-3491] module 'Reg_16bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_16bit.vhd:34' bound to instance 'R12' of component 'Reg_16bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RAM.vhd:329]
+INFO: [Synth 8-3491] module 'Reg_16bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_16bit.vhd:34' bound to instance 'R13' of component 'Reg_16bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RAM.vhd:338]
+INFO: [Synth 8-3491] module 'Reg_16bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_16bit.vhd:34' bound to instance 'R14' of component 'Reg_16bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RAM.vhd:347]
+INFO: [Synth 8-3491] module 'Reg_16bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_16bit.vhd:34' bound to instance 'R15' of component 'Reg_16bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RAM.vhd:356]
+INFO: [Synth 8-256] done synthesizing module 'RAM' (17#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RAM.vhd:79]
+INFO: [Synth 8-3491] module 'Mux_2way_8bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_2way_8bit.vhd:34' bound to instance 'Mux_2way_8bit_0' of component 'Mux_2way_8bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Processor.vhd:201]
+INFO: [Synth 8-638] synthesizing module 'Mux_2way_8bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_2way_8bit.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2way_8bit' (18#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_2way_8bit.vhd:41]
+INFO: [Synth 8-3491] module 'PC_4bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/PC_4bit.vhd:34' bound to instance 'PC_4bit_0' of component 'PC_4bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Processor.vhd:209]
+INFO: [Synth 8-638] synthesizing module 'PC_4bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/PC_4bit.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'PC_4bit' (19#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/PC_4bit.vhd:42]
+INFO: [Synth 8-3491] module 'RCA_4' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RCA_4.vhd:34' bound to instance 'RCA_4_0' of component 'RCA_4' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Processor.vhd:219]
+INFO: [Synth 8-638] synthesizing module 'RCA_4' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RCA_4.vhd:40]
+INFO: [Synth 8-3491] module 'FA' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA_0' of component 'FA' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RCA_4.vhd:59]
+INFO: [Synth 8-638] synthesizing module 'FA' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'HA' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/HA.vhd:34' bound to instance 'HA_0' of component 'HA' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/FA.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'HA' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/HA.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'HA' (20#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/HA.vhd:41]
+INFO: [Synth 8-3491] module 'HA' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/HA.vhd:34' bound to instance 'HA_1' of component 'HA' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/FA.vhd:64]
+INFO: [Synth 8-256] done synthesizing module 'FA' (21#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/FA.vhd:42]
+INFO: [Synth 8-3491] module 'FA' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RCA_4.vhd:67]
+INFO: [Synth 8-3491] module 'FA' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RCA_4.vhd:75]
+INFO: [Synth 8-3491] module 'FA' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA_3' of component 'FA' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RCA_4.vhd:83]
+INFO: [Synth 8-256] done synthesizing module 'RCA_4' (22#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RCA_4.vhd:40]
+INFO: [Synth 8-3491] module 'Mux_2way_4bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_2way_4bit.vhd:34' bound to instance 'Mux_2way_4bit_0' of component 'Mux_2way_4bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Processor.vhd:225]
+INFO: [Synth 8-638] synthesizing module 'Mux_2way_4bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_2way_4bit.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Mux_2way_4bit' (23#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_2way_4bit.vhd:41]
+INFO: [Synth 8-3491] module 'Reg_Bank_16byte' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd:34' bound to instance 'Reg_Bank_16byte_0' of component 'Reg_Bank_16byte' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Processor.vhd:236]
+INFO: [Synth 8-638] synthesizing module 'Reg_Bank_16byte' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd:57]
+INFO: [Synth 8-3491] module 'Decoder_4_to16' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Decoder_4_to16.vhd:34' bound to instance 'Decoder_4_to_16_0' of component 'Decoder_4_to16' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd:76]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'R0' of component 'Reg' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd:83]
+INFO: [Synth 8-638] synthesizing module 'Reg' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'Reg' (24#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg.vhd:42]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'R1' of component 'Reg' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd:92]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'R2' of component 'Reg' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd:101]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'R3' of component 'Reg' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd:110]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'R4' of component 'Reg' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd:119]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'R5' of component 'Reg' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd:128]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'R6' of component 'Reg' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd:137]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'R7' of component 'Reg' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd:146]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'R8' of component 'Reg' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd:155]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'R9' of component 'Reg' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd:165]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'R10' of component 'Reg' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd:174]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'R11' of component 'Reg' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd:182]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'R12' of component 'Reg' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd:191]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'R13' of component 'Reg' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd:200]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'R14' of component 'Reg' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd:209]
+INFO: [Synth 8-3491] module 'Reg' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg.vhd:34' bound to instance 'R15' of component 'Reg' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd:218]
+INFO: [Synth 8-256] done synthesizing module 'Reg_Bank_16byte' (25#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd:57]
+INFO: [Synth 8-3491] module 'Mux_16way_8bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_8bit.vhd:34' bound to instance 'Mux_16way_8bit_A' of component 'Mux_16way_8bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Processor.vhd:260]
+INFO: [Synth 8-638] synthesizing module 'Mux_16way_8bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_8bit.vhd:56]
+INFO: [Synth 8-3491] module 'Mux_8way_8bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8way_8bit.vhd:34' bound to instance 'Mux_8way_8bit_0' of component 'Mux_8way_8bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_8bit.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'Mux_8way_8bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8way_8bit.vhd:53]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_0' of component 'Mux_8_to_1' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8way_8bit.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'Mux_8_to_1' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8_to_1.vhd:41]
+INFO: [Synth 8-3491] module 'Decoder_3_to_8' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Decoder_3_to_8.vhd:34' bound to instance 'Decoder_3_to_8_0' of component 'Decoder_3_to_8' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8_to_1.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'Mux_8_to_1' (26#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8_to_1.vhd:41]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_1' of component 'Mux_8_to_1' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8way_8bit.vhd:72]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_2' of component 'Mux_8_to_1' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8way_8bit.vhd:79]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_3' of component 'Mux_8_to_1' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8way_8bit.vhd:86]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_4' of component 'Mux_8_to_1' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8way_8bit.vhd:93]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_5' of component 'Mux_8_to_1' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8way_8bit.vhd:100]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_6' of component 'Mux_8_to_1' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8way_8bit.vhd:107]
+INFO: [Synth 8-3491] module 'Mux_8_to_1' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8_to_1.vhd:34' bound to instance 'Mux_8_to_1_7' of component 'Mux_8_to_1' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8way_8bit.vhd:114]
+INFO: [Synth 8-256] done synthesizing module 'Mux_8way_8bit' (27#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8way_8bit.vhd:53]
+INFO: [Synth 8-3491] module 'Mux_8way_8bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_8way_8bit.vhd:34' bound to instance 'Mux_8way_8bit_1' of component 'Mux_8way_8bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_8bit.vhd:91]
+INFO: [Synth 8-256] done synthesizing module 'Mux_16way_8bit' (28#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_8bit.vhd:56]
+INFO: [Synth 8-3491] module 'Mux_16way_8bit' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Mux_16way_8bit.vhd:34' bound to instance 'Mux_16way_8bit_B' of component 'Mux_16way_8bit' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Processor.vhd:282]
+INFO: [Synth 8-3491] module 'RCA_8' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RCA_8.vhd:34' bound to instance 'RCA_8_0' of component 'RCA_8' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Processor.vhd:304]
+INFO: [Synth 8-638] synthesizing module 'RCA_8' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RCA_8.vhd:43]
+INFO: [Synth 8-3491] module 'FA' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA_0' of component 'FA' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RCA_8.vhd:70]
+INFO: [Synth 8-3491] module 'FA' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA_1' of component 'FA' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RCA_8.vhd:78]
+INFO: [Synth 8-3491] module 'FA' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA_2' of component 'FA' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RCA_8.vhd:86]
+INFO: [Synth 8-3491] module 'FA' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA_3' of component 'FA' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RCA_8.vhd:94]
+INFO: [Synth 8-3491] module 'FA' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA_4' of component 'FA' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RCA_8.vhd:102]
+INFO: [Synth 8-3491] module 'FA' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA_5' of component 'FA' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RCA_8.vhd:110]
+INFO: [Synth 8-3491] module 'FA' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA_6' of component 'FA' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RCA_8.vhd:118]
+INFO: [Synth 8-3491] module 'FA' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/FA.vhd:34' bound to instance 'FA_7' of component 'FA' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RCA_8.vhd:126]
+INFO: [Synth 8-256] done synthesizing module 'RCA_8' (29#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/RCA_8.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'Processor' (30#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Processor.vhd:48]
+INFO: [Synth 8-3491] module 'SevenSegDispHandler' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/SevenSegDispHandler.vhd:34' bound to instance 'SevenSegDispHandler_0' of component 'SevenSegDispHandler' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/EnclosureNanoProcessor.vhd:110]
+INFO: [Synth 8-638] synthesizing module 'SevenSegDispHandler' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/SevenSegDispHandler.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'SevenSegDispHandler' (31#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/SevenSegDispHandler.vhd:41]
+INFO: [Synth 8-3491] module 'Slow_Clk2' declared at 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Slow_Clk2.vhd:34' bound to instance 'Slow_Clk0' of component 'Slow_Clk2' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/EnclosureNanoProcessor.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'Slow_Clk2' [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Slow_Clk2.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'Slow_Clk2' (32#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/Slow_Clk2.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'EnclosureNanoProcessor' (33#1) [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sources_1/new/EnclosureNanoProcessor.vhd:49]
+WARNING: [Synth 8-3331] design PC_4bit has unconnected port En
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 466.512 ; gain = 152.703
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 466.512 ; gain = 152.703
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 466.512 ; gain = 152.703
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/constrs_1/imports/UOM_CS1050/Basys3Labs.xdc]
+Finished Parsing XDC File [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/constrs_1/imports/UOM_CS1050/Basys3Labs.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/constrs_1/imports/UOM_CS1050/Basys3Labs.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/EnclosureNanoProcessor_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/EnclosureNanoProcessor_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 806.293 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 806.293 ; gain = 492.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 806.293 ; gain = 492.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 806.293 ; gain = 492.484
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_status" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "Jump_flag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "Jump_flag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "clk_status" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-802] inferred FSM for state register 'instructionInputStateCounter_reg' in module 'EnclosureNanoProcessor'
+INFO: [Synth 8-5545] ROM "Rd_en_sig" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                               00 | 00000000000000000000000000000000
+                 iSTATE1 |                               01 | 00000000000000000000000000000001
+                 iSTATE2 |                               10 | 00000000000000000000000000000010
+                  iSTATE |                               11 | 00000000000000000000000000000011
+*
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'instructionInputStateCounter_reg' using encoding 'sequential' in module 'EnclosureNanoProcessor'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 806.293 ; gain = 492.484
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
+	   2 Input      3 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 32    
++---Registers : 
+	               32 Bit    Registers := 4     
+	               16 Bit    Registers := 17    
+	                8 Bit    Registers := 16    
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 3     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input      8 Bit        Muxes := 3     
+	   4 Input      7 Bit        Muxes := 3     
+	   5 Input      7 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 10    
+	   5 Input      4 Bit        Muxes := 1     
+	   4 Input      4 Bit        Muxes := 2     
+	   5 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 5     
+	   2 Input      1 Bit        Muxes := 6     
+	   5 Input      1 Bit        Muxes := 2     
+	   3 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module EnclosureNanoProcessor 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   4 Input      4 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+	   3 Input      1 Bit        Muxes := 2     
+	   4 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module Slow_Clk 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Ins_Decoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      8 Bit        Muxes := 3     
+	   2 Input      4 Bit        Muxes := 9     
+	   5 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module Reg_16Bit0 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module Reg_16Bit1 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module Reg_16Bit2 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module Reg_16Bit3 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module Reg_16Bit4 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module Reg_16Bit5 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module Reg_16Bit6 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module Reg_16Bit7 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module Reg_16bit 
+Detailed RTL Component Info : 
++---Registers : 
+	               16 Bit    Registers := 1     
+Module PC_4bit 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   2 Input      4 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module HA 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
+Module Reg 
+Detailed RTL Component Info : 
++---Registers : 
+	                8 Bit    Registers := 1     
+Module RCA_8 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 8     
+Module SevenSegDispHandler 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input      3 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                7 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
++---Muxes : 
+	   4 Input      7 Bit        Muxes := 3     
+	   5 Input      7 Bit        Muxes := 3     
+	   4 Input      4 Bit        Muxes := 1     
+	   5 Input      3 Bit        Muxes := 1     
+	   4 Input      2 Bit        Muxes := 4     
+	   5 Input      1 Bit        Muxes := 1     
+Module Slow_Clk2 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "Jump_flag" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5545] ROM "Slow_Clk_0/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Slow_Clk_0/clk_status" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "p_0_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "p_0_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "p_0_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "p_0_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "p_0_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "p_0_out" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Slow_Clk0/count" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "Slow_Clk0/clk_status" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[30]' (FDE) to 'DispConfigSig_reg[31]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[31]' (FDE) to 'DispConfigSig_reg[29]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[29]' (FDE) to 'DispConfigSig_reg[28]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[28]' (FDE) to 'DispConfigSig_reg[27]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[27]' (FDE) to 'DispConfigSig_reg[26]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[26]' (FDE) to 'DispConfigSig_reg[25]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[25]' (FDE) to 'DispConfigSig_reg[24]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[24]' (FDE) to 'DispConfigSig_reg[23]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[23]' (FDE) to 'DispConfigSig_reg[22]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[22]' (FDE) to 'DispConfigSig_reg[21]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[21]' (FDE) to 'DispConfigSig_reg[20]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[20]' (FDE) to 'DispConfigSig_reg[19]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[19]' (FDE) to 'DispConfigSig_reg[18]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[18]' (FDE) to 'DispConfigSig_reg[17]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[17]' (FDE) to 'DispConfigSig_reg[16]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[16]' (FDE) to 'DispConfigSig_reg[15]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[15]' (FDE) to 'DispConfigSig_reg[14]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[14]' (FDE) to 'DispConfigSig_reg[13]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[13]' (FDE) to 'DispConfigSig_reg[12]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[12]' (FDE) to 'DispConfigSig_reg[11]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[11]' (FDE) to 'DispConfigSig_reg[10]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[10]' (FDE) to 'DispConfigSig_reg[9]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[9]' (FDE) to 'DispConfigSig_reg[8]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[8]' (FDE) to 'DispConfigSig_reg[7]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[7]' (FDE) to 'DispConfigSig_reg[6]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[6]' (FDE) to 'DispConfigSig_reg[5]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[5]' (FDE) to 'DispConfigSig_reg[4]'
+INFO: [Synth 8-3886] merging instance 'DispConfigSig_reg[4]' (FDE) to 'DispConfigSig_reg[3]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\DispConfigSig_reg[3] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SevenSegDispHandler_0/segment_count_reg[2] )
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[3]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[4]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[4]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[5]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[5]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[6]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[6]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[7]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[7]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[8]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[8]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[9]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[9]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[10]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[10]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[11]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[11]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[12]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[12]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[13]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[13]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[14]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[14]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[15]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[15]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[16]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[16]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[17]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[17]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[18]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[18]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[19]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[19]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[20]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[20]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[21]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[21]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[22]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[22]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[23]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[23]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[24]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[24]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[25]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[25]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[26]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[26]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[27]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[27]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[28]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[28]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[29]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[29]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[30]'
+INFO: [Synth 8-3886] merging instance 'SevenSegDispHandler_0/segment_count_reg[30]' (FDRE) to 'SevenSegDispHandler_0/segment_count_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\SevenSegDispHandler_0/segment_count_reg[31] )
+INFO: [Synth 8-3886] merging instance 'NanoProcessor_0/Reg_Bank_16byte_0/R0/Q_reg[7]' (FDRE) to 'NanoProcessor_0/Reg_Bank_16byte_0/R0/Q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'NanoProcessor_0/Reg_Bank_16byte_0/R0/Q_reg[6]' (FDRE) to 'NanoProcessor_0/Reg_Bank_16byte_0/R0/Q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'NanoProcessor_0/Reg_Bank_16byte_0/R0/Q_reg[5]' (FDRE) to 'NanoProcessor_0/Reg_Bank_16byte_0/R0/Q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'NanoProcessor_0/Reg_Bank_16byte_0/R0/Q_reg[4]' (FDRE) to 'NanoProcessor_0/Reg_Bank_16byte_0/R0/Q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'NanoProcessor_0/Reg_Bank_16byte_0/R0/Q_reg[3]' (FDRE) to 'NanoProcessor_0/Reg_Bank_16byte_0/R0/Q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'NanoProcessor_0/Reg_Bank_16byte_0/R0/Q_reg[2]' (FDRE) to 'NanoProcessor_0/Reg_Bank_16byte_0/R0/Q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'NanoProcessor_0/Reg_Bank_16byte_0/R0/Q_reg[0]' (FDRE) to 'NanoProcessor_0/Reg_Bank_16byte_0/R0/Q_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\NanoProcessor_0/Reg_Bank_16byte_0/R0/Q_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (NanoProcessor_0/Reg_Bank_16byte_0/R0/Q_reg[1]) is unused and will be removed from module EnclosureNanoProcessor.
+WARNING: [Synth 8-3332] Sequential element (SevenSegDispHandler_0/segment_count_reg[31]) is unused and will be removed from module EnclosureNanoProcessor.
+WARNING: [Synth 8-3332] Sequential element (SevenSegDispHandler_0/segment_count_reg[2]) is unused and will be removed from module EnclosureNanoProcessor.
+WARNING: [Synth 8-3332] Sequential element (DispConfigSig_reg[3]) is unused and will be removed from module EnclosureNanoProcessor.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:45 . Memory (MB): peak = 806.293 ; gain = 492.484
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:52 ; elapsed = 00:00:57 . Memory (MB): peak = 806.293 ; gain = 492.484
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:52 ; elapsed = 00:00:58 . Memory (MB): peak = 822.051 ; gain = 508.242
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:53 ; elapsed = 00:00:59 . Memory (MB): peak = 838.824 ; gain = 525.016
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 838.824 ; gain = 525.016
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 838.824 ; gain = 525.016
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 838.824 ; gain = 525.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 838.824 ; gain = 525.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 838.824 ; gain = 525.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 838.824 ; gain = 525.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    28|
+|3     |LUT1   |     7|
+|4     |LUT2   |    40|
+|5     |LUT3   |     8|
+|6     |LUT4   |   135|
+|7     |LUT5   |   116|
+|8     |LUT6   |   238|
+|9     |FDRE   |   483|
+|10    |FDSE   |    37|
+|11    |IBUF   |    20|
+|12    |OBUF   |    21|
++------+-------+------+
+
+Report Instance Areas: 
++------+---------------------------+--------------------+------+
+|      |Instance                   |Module              |Cells |
++------+---------------------------+--------------------+------+
+|1     |top                        |                    |  1135|
+|2     |  NanoProcessor_0          |Processor           |   898|
+|3     |    PC_4bit_0              |PC_4bit             |   434|
+|4     |    RAM_0                  |RAM                 |   282|
+|5     |      Decoder_4_to_16_0    |Decoder_4_to16      |    16|
+|6     |        Decoder_3_to_8_0   |Decoder_3_to_8      |     8|
+|7     |          Decoder_2_to_4_0 |Decoder_2_to_4_23   |     4|
+|8     |          Decoder_2_to_4_1 |Decoder_2_to_4_24   |     4|
+|9     |        Decoder_3_to_8_1   |Decoder_3_to_8_21   |     8|
+|10    |          Decoder_2_to_4_0 |Decoder_2_to_4      |     4|
+|11    |          Decoder_2_to_4_1 |Decoder_2_to_4_22   |     4|
+|12    |      R0                   |Reg_16Bit0          |    17|
+|13    |      R1                   |Reg_16Bit1          |    17|
+|14    |      R10                  |Reg_16bit           |    16|
+|15    |      R11                  |Reg_16bit_14        |    16|
+|16    |      R12                  |Reg_16bit_15        |    16|
+|17    |      R13                  |Reg_16bit_16        |    17|
+|18    |      R14                  |Reg_16bit_17        |    16|
+|19    |      R15                  |Reg_16bit_18        |    16|
+|20    |      R2                   |Reg_16Bit2          |    17|
+|21    |      R3                   |Reg_16Bit3          |    20|
+|22    |      R4                   |Reg_16Bit4          |    18|
+|23    |      R5                   |Reg_16Bit5          |    16|
+|24    |      R6                   |Reg_16Bit6          |    16|
+|25    |      R7                   |Reg_16Bit7          |    16|
+|26    |      R8                   |Reg_16bit_19        |    16|
+|27    |      R9                   |Reg_16bit_20        |    16|
+|28    |    Reg_Bank_16byte_0      |Reg_Bank_16byte     |   128|
+|29    |      R1                   |Reg                 |     8|
+|30    |      R10                  |Reg_0               |     8|
+|31    |      R11                  |Reg_1               |     8|
+|32    |      R12                  |Reg_2               |     8|
+|33    |      R13                  |Reg_3               |     8|
+|34    |      R14                  |Reg_4               |     8|
+|35    |      R15                  |Reg_5               |     8|
+|36    |      R2                   |Reg_6               |     8|
+|37    |      R3                   |Reg_7               |     8|
+|38    |      R4                   |Reg_8               |     8|
+|39    |      R5                   |Reg_9               |     8|
+|40    |      R6                   |Reg_10              |     8|
+|41    |      R7                   |Reg_11              |    16|
+|42    |      R8                   |Reg_12              |     8|
+|43    |      R9                   |Reg_13              |     8|
+|44    |    Slow_Clk_0             |Slow_Clk            |    54|
+|45    |  SevenSegDispHandler_0    |SevenSegDispHandler |   104|
+|46    |  Slow_Clk0                |Slow_Clk2           |    54|
++------+---------------------------+--------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:54 ; elapsed = 00:01:00 . Memory (MB): peak = 838.824 ; gain = 525.016
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:43 ; elapsed = 00:00:50 . Memory (MB): peak = 838.824 ; gain = 185.234
+Synthesis Optimization Complete : Time (s): cpu = 00:00:55 ; elapsed = 00:01:00 . Memory (MB): peak = 838.824 ; gain = 525.016
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 48 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+260 Infos, 5 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:56 ; elapsed = 00:01:03 . Memory (MB): peak = 838.824 ; gain = 537.855
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.runs/synth_1/EnclosureNanoProcessor.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file EnclosureNanoProcessor_utilization_synth.rpt -pb EnclosureNanoProcessor_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.143 . Memory (MB): peak = 838.824 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 18 04:01:42 2022...

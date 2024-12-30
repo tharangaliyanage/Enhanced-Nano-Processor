@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="EnclosureNanoProcessor_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="EnclosureNanoProcessor_TB" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="547234043fs"></ZoomEndTime>
+      <Cursor1Time time="25000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="89"></NameColumnWidth>
+      <ValueColumnWidth column_width="58"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="35" />
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/sw" type="array">
+      <obj_property name="ElementShortName">sw[15:0]</obj_property>
+      <obj_property name="ObjectShortName">sw[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/MenuBtn" type="logic">
+      <obj_property name="ElementShortName">MenuBtn</obj_property>
+      <obj_property name="ObjectShortName">MenuBtn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/Zero" type="logic">
+      <obj_property name="ElementShortName">Zero</obj_property>
+      <obj_property name="ObjectShortName">Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/Overflow" type="logic">
+      <obj_property name="ElementShortName">Overflow</obj_property>
+      <obj_property name="ObjectShortName">Overflow</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/R7" type="array">
+      <obj_property name="ElementShortName">R7[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R7[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/Seven_seg_out" type="array">
+      <obj_property name="ElementShortName">Seven_seg_out[6:0]</obj_property>
+      <obj_property name="ObjectShortName">Seven_seg_out[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/DigitSelectOut" type="array">
+      <obj_property name="ElementShortName">DigitSelectOut[3:0]</obj_property>
+      <obj_property name="ObjectShortName">DigitSelectOut[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/RunBtn" type="logic">
+      <obj_property name="ElementShortName">RunBtn</obj_property>
+      <obj_property name="ObjectShortName">RunBtn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/RamReset" type="logic">
+      <obj_property name="ElementShortName">RamReset</obj_property>
+      <obj_property name="ObjectShortName">RamReset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/RamReset" type="logic">
+      <obj_property name="ElementShortName">RamReset</obj_property>
+      <obj_property name="ObjectShortName">RamReset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Clk" type="logic">
+      <obj_property name="ElementShortName">Clk</obj_property>
+      <obj_property name="ObjectShortName">Clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Wr_en" type="logic">
+      <obj_property name="ElementShortName">Wr_en</obj_property>
+      <obj_property name="ObjectShortName">Wr_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Input_D" type="array">
+      <obj_property name="ElementShortName">Input_D[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Input_D[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/In_add" type="array">
+      <obj_property name="ElementShortName">In_add[3:0]</obj_property>
+      <obj_property name="ObjectShortName">In_add[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Rd_en" type="logic">
+      <obj_property name="ElementShortName">Rd_en</obj_property>
+      <obj_property name="ObjectShortName">Rd_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Program_Counter" type="array">
+      <obj_property name="ElementShortName">Program_Counter[3:0]</obj_property>
+      <obj_property name="ObjectShortName">Program_Counter[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Out_data" type="array">
+      <obj_property name="ElementShortName">Out_data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Out_data[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Y" type="array">
+      <obj_property name="ElementShortName">Y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Y[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Q0" type="array">
+      <obj_property name="ElementShortName">Q0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q0[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Q1" type="array">
+      <obj_property name="ElementShortName">Q1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q1[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Q2" type="array">
+      <obj_property name="ElementShortName">Q2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q2[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Q3" type="array">
+      <obj_property name="ElementShortName">Q3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q3[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Q4" type="array">
+      <obj_property name="ElementShortName">Q4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q4[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Q5" type="array">
+      <obj_property name="ElementShortName">Q5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q5[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Q6" type="array">
+      <obj_property name="ElementShortName">Q6[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q6[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Q7" type="array">
+      <obj_property name="ElementShortName">Q7[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q7[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Q8" type="array">
+      <obj_property name="ElementShortName">Q8[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q8[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Q9" type="array">
+      <obj_property name="ElementShortName">Q9[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q9[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Q10" type="array">
+      <obj_property name="ElementShortName">Q10[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q10[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Q11" type="array">
+      <obj_property name="ElementShortName">Q11[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q11[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Q12" type="array">
+      <obj_property name="ElementShortName">Q12[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q12[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Q13" type="array">
+      <obj_property name="ElementShortName">Q13[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q13[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Q14" type="array">
+      <obj_property name="ElementShortName">Q14[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q14[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/EnclosureNanoProcessor_TB/UUT/NanoProcessor_0/RAM_0/Q15" type="array">
+      <obj_property name="ElementShortName">Q15[15:0]</obj_property>
+      <obj_property name="ObjectShortName">Q15[15:0]</obj_property>
+   </wvobject>
+</wave_config>

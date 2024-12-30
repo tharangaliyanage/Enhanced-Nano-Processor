@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Aug 18 03:42:31 2022
+# Process ID: 10124
+# Current directory: C:/Users/sasin/AppData/Roaming/Xilinx/Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16680
+# Log file: C:/Users/sasin/AppData/Roaming/Xilinx/Vivado/vivado.log
+# Journal file: C:/Users/sasin/AppData/Roaming/Xilinx/Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+launch_simulation
+open_wave_config E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/Nanoprocessor.srcs/sim_1/imports/Nanoprocessor/NanoProcessor_TB_behav3.wcfg
+source EnclosureNanoProcessor_TB.tcl
+close_sim
+archive_project E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Group32_EnhancedNanoProcessor.xpr.zip -temp_dir C:/Users/sasin/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-10124-SP-AS515-LAPTOP -force -include_local_ip_cache

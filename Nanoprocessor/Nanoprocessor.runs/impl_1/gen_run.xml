@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1660775516">
+  <File Type="ROUTE-PWR" Name="EnclosureNanoProcessor_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="EnclosureNanoProcessor.tcl"/>
+  <File Type="BITSTR-BMM" Name="EnclosureNanoProcessor_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="EnclosureNanoProcessor_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="EnclosureNanoProcessor_reports.tcl"/>
+  <File Type="OPT-DCP" Name="EnclosureNanoProcessor_opt.dcp"/>
+  <File Type="OPT-DRC" Name="EnclosureNanoProcessor_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="EnclosureNanoProcessor.hwdef"/>
+  <File Type="PWROPT-DCP" Name="EnclosureNanoProcessor_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="EnclosureNanoProcessor_placed.dcp"/>
+  <File Type="PLACE-IO" Name="EnclosureNanoProcessor_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="EnclosureNanoProcessor_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="EnclosureNanoProcessor_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="EnclosureNanoProcessor_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="EnclosureNanoProcessor_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="EnclosureNanoProcessor.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="EnclosureNanoProcessor_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="EnclosureNanoProcessor.bin"/>
+  <File Type="PHYSOPT-DCP" Name="EnclosureNanoProcessor_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="EnclosureNanoProcessor.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="EnclosureNanoProcessor_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="EnclosureNanoProcessor_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="EnclosureNanoProcessor_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="EnclosureNanoProcessor_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="EnclosureNanoProcessor_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="EnclosureNanoProcessor_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="EnclosureNanoProcessor.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="EnclosureNanoProcessor_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="EnclosureNanoProcessor.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="EnclosureNanoProcessor_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="EnclosureNanoProcessor_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="EnclosureNanoProcessor.sysdef"/>
+  <File Type="ROUTE-PWR-RPX" Name="EnclosureNanoProcessor_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="EnclosureNanoProcessor_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="EnclosureNanoProcessor_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="EnclosureNanoProcessor_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="EnclosureNanoProcessor_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="EnclosureNanoProcessor_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="EnclosureNanoProcessor_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="EnclosureNanoProcessor_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="EnclosureNanoProcessor_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="EnclosureNanoProcessor_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="EnclosureNanoProcessor_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="EnclosureNanoProcessor_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="EnclosureNanoProcessor.bit"/>
+  <File Type="BITSTR-RBT" Name="EnclosureNanoProcessor.rbt"/>
+  <File Type="BITSTR-NKY" Name="EnclosureNanoProcessor.nky"/>
+  <File Type="BG-DRC" Name="EnclosureNanoProcessor.drc"/>
+  <File Type="RDI-RDI" Name="EnclosureNanoProcessor.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Decoder_2_to_4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/Decoder_2_to_4.vhd"/>
+        <Attr Name="ImportTime" Val="1659203414"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Decoder_3_to_8.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/Decoder_3_to_8.vhd"/>
+        <Attr Name="ImportTime" Val="1659203394"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Decoder_4_to16.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/Decoder_4_to16.vhd"/>
+        <Attr Name="ImportTime" Val="1659205993"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/FA.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/FA.vhd"/>
+        <Attr Name="ImportTime" Val="1659215364"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/HA.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/HA.vhd"/>
+        <Attr Name="ImportTime" Val="1659214089"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Ins_Decoder.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/Ins_Decoder.vhd"/>
+        <Attr Name="ImportTime" Val="1659706690"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux_16_to_1_16bit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/Mux_16_to_1_16bit.vhd"/>
+        <Attr Name="ImportTime" Val="1659539471"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux_16way_1bit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/Mux_16way_1bit.vhd"/>
+        <Attr Name="ImportTime" Val="1659534646"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux_16way_8bit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/Mux_16way_8bit.vhd"/>
+        <Attr Name="ImportTime" Val="1659275193"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux_2way_4bit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/Mux_2way_4bit.vhd"/>
+        <Attr Name="ImportTime" Val="1659705888"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux_2way_8bit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/Mux_2way_8bit.vhd"/>
+        <Attr Name="ImportTime" Val="1659709826"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux_8_to_1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/Mux_8_to_1.vhd"/>
+        <Attr Name="ImportTime" Val="1659210943"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux_8way_8bit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/Mux_8way_8bit.vhd"/>
+        <Attr Name="ImportTime" Val="1659274263"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/PC_4bit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/PC_4bit.vhd"/>
+        <Attr Name="ImportTime" Val="1659541036"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Processor.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/Processor.vhd"/>
+        <Attr Name="ImportTime" Val="1660749115"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/RAM.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/RAM.vhd"/>
+        <Attr Name="ImportTime" Val="1660744901"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/RCA_4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/RCA_4.vhd"/>
+        <Attr Name="ImportTime" Val="1659710152"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/RCA_8.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/RCA_8.vhd"/>
+        <Attr Name="ImportTime" Val="1659214707"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/REg_16Bit3.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Cipla 1/Downloads/Lab9Enhanced2/Lab9Enhanced2.srcs/sources_1/new/REg_16Bit3.vhd"/>
+        <Attr Name="ImportTime" Val="1660746856"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Reg.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/Reg.vhd"/>
+        <Attr Name="ImportTime" Val="1659205564"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Reg_16Bit1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Cipla 1/Downloads/Lab9Enhanced2/Lab9Enhanced2.srcs/sources_1/new/Reg_16Bit1.vhd"/>
+        <Attr Name="ImportTime" Val="1660746856"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Reg_16Bit2.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Cipla 1/Downloads/Lab9Enhanced2/Lab9Enhanced2.srcs/sources_1/new/Reg_16Bit2.vhd"/>
+        <Attr Name="ImportTime" Val="1660746856"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Reg_16Bit4.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Cipla 1/Downloads/Lab9Enhanced2/Lab9Enhanced2.srcs/sources_1/new/Reg_16Bit4.vhd"/>
+        <Attr Name="ImportTime" Val="1660746856"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Reg_16Bit5.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Cipla 1/Downloads/Lab9Enhanced2/Lab9Enhanced2.srcs/sources_1/new/Reg_16Bit5.vhd"/>
+        <Attr Name="ImportTime" Val="1660746856"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Reg_16Bit6.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Cipla 1/Downloads/Lab9Enhanced2/Lab9Enhanced2.srcs/sources_1/new/Reg_16Bit6.vhd"/>
+        <Attr Name="ImportTime" Val="1660746856"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/Reg_16Bit7.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../../../Cipla 1/Downloads/Lab9Enhanced2/Lab9Enhanced2.srcs/sources_1/new/Reg_16Bit7.vhd"/>
+        <Attr Name="ImportTime" Val="1660746850"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Reg_16bit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/Reg_16bit.vhd"/>
+        <Attr Name="ImportTime" Val="1660743865"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Reg_16bit0.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/Reg_16bit0.vhd"/>
+        <Attr Name="ImportTime" Val="1660747776"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Reg_Bank_16byte.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd"/>
+        <Attr Name="ImportTime" Val="1660749720"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/SevenSegDispHandler.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/SevenSegDispHandler.vhd"/>
+        <Attr Name="ImportTime" Val="1660753321"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Slow_Clk.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/Slow_Clk.vhd"/>
+        <Attr Name="ImportTime" Val="1660746094"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Slow_Clk2.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/Slow_Clk2.vhd"/>
+        <Attr Name="ImportTime" Val="1660750655"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/EnclosureNanoProcessor.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/Nanoprocessor.srcs/sources_1/new/EnclosureNanoProcessor.vhd"/>
+        <Attr Name="ImportTime" Val="1660752325"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Nanoprocessor/archive_project_summary.txt">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/UOM_CS1050/Lab9Enhanced3/NanoprocessorV3.xpr/Nanoprocessor/archive_project_summary.txt"/>
+        <Attr Name="ImportTime" Val="1660754838"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="EnclosureNanoProcessor"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/UOM_CS1050/Basys3Labs.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="E:/Sasindu/Vivado_Projects/UOM_CS1050/Basys3Labs.xdc"/>
+        <Attr Name="ImportTime" Val="1654142156"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,36 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Nanoprocessor.srcs/sources_1/new/Decoder_2_to_4.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/Decoder_3_to_8.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/Decoder_4_to16.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/FA.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/HA.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/Ins_Decoder.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/Mux_16_to_1_16bit.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/Mux_16way_1bit.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/Mux_16way_8bit.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/Mux_2way_4bit.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/Mux_2way_8bit.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/Mux_8_to_1.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/Mux_8way_8bit.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/PC_4bit.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/Processor.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/RAM.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/RCA_4.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/RCA_8.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/imports/new/REg_16Bit3.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/Reg.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit1.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit2.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit4.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit5.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit6.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/imports/new/Reg_16Bit7.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/Reg_16bit.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/Reg_16bit0.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/Reg_Bank_16byte.vhd" \
+"../../../../Nanoprocessor.srcs/sources_1/new/Slow_Clk.vhd" \
+"../../../../Nanoprocessor.srcs/sim_1/new/NanoProcessor_TB.vhd" \
+
+# Do not sort compile order
+nosort

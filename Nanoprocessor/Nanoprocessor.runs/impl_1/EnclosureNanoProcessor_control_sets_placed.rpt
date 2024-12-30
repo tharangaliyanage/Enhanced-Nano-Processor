@@ -1,0 +1,114 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Thu Aug 18 04:02:51 2022
+| Host         : SP-AS515-LAPTOP running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file EnclosureNanoProcessor_control_sets_placed.rpt
+| Design       : EnclosureNanoProcessor
+| Device       : xc7a35t
+---------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    46 |
+| Unused register locations in slices containing registers |    44 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      2 |            3 |
+|      4 |            3 |
+|      8 |            3 |
+|     10 |            1 |
+|    16+ |           36 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              20 |            6 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |             210 |           30 |
+| Yes          | No                    | No                     |              50 |            7 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |             772 |          143 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++---------------------+------------------------------------------------------------------------------------------+----------------------------------------------+------------------+----------------+
+|     Clock Signal    |                                       Enable Signal                                      |               Set/Reset Signal               | Slice Load Count | Bel Load Count |
++---------------------+------------------------------------------------------------------------------------------+----------------------------------------------+------------------+----------------+
+|  Clk_IBUF_BUFG      |                                                                                          | SevenSegDispHandler_0/SevenSegOut[2]_i_1_n_0 |                1 |              2 |
+|  Clk_IBUF_BUFG      |                                                                                          | SevenSegDispHandler_0/segment_count1__0[0]   |                1 |              2 |
+|  Clk_IBUF_BUFG      |                                                                                          | SevenSegDispHandler_0/segment_count[1]       |                1 |              2 |
+|  Slow_Clk0/clkSlow2 |                                                                                          |                                              |                1 |              4 |
+|  Clk_IBUF_BUFG      |                                                                                          | SevenSegDispHandler_0/segment_count[0]       |                1 |              4 |
+|  Clk_IBUF_BUFG      |                                                                                          | SevenSegDispHandler_0/SevenSegOut[5]_i_1_n_0 |                1 |              4 |
+|  Slow_Clk0/clkSlow2 | input_add_sig[3]_i_1_n_0                                                                 |                                              |                1 |              8 |
+|  Clk_slow           | NanoProcessor_0/PC_4bit_0/Q[3]_i_1_n_0                                                   | RunBtn_IBUF                                  |                1 |              8 |
+|  Clk_IBUF_BUFG      |                                                                                          | SevenSegDispHandler_0/SevenSegOut[6]_i_1_n_0 |                1 |              8 |
+|  Slow_Clk0/clkSlow2 | menuBtn_IBUF                                                                             |                                              |                2 |             10 |
+|  Clk_slow           | NanoProcessor_0/PC_4bit_0/Y[3]                                                           | RunBtn_IBUF                                  |                2 |             16 |
+|  Clk_slow           | NanoProcessor_0/PC_4bit_0/Y[2]                                                           | RunBtn_IBUF                                  |                2 |             16 |
+|  Clk_slow           | NanoProcessor_0/PC_4bit_0/Y[5]                                                           | RunBtn_IBUF                                  |                3 |             16 |
+|  Clk_slow           | NanoProcessor_0/PC_4bit_0/Y[7]                                                           | RunBtn_IBUF                                  |                2 |             16 |
+|  Clk_slow           | NanoProcessor_0/PC_4bit_0/Y[1]                                                           | RunBtn_IBUF                                  |                4 |             16 |
+|  Clk_slow           | NanoProcessor_0/PC_4bit_0/Y[8]                                                           | RunBtn_IBUF                                  |                4 |             16 |
+|  Clk_slow           | NanoProcessor_0/PC_4bit_0/Y[0]                                                           | RunBtn_IBUF                                  |                3 |             16 |
+|  Clk_slow           | NanoProcessor_0/PC_4bit_0/Y[10]                                                          | RunBtn_IBUF                                  |                3 |             16 |
+|  Clk_slow           | NanoProcessor_0/PC_4bit_0/Y[9]                                                           | RunBtn_IBUF                                  |                4 |             16 |
+|  Clk_slow           | NanoProcessor_0/PC_4bit_0/E[0]                                                           | RunBtn_IBUF                                  |                2 |             16 |
+|  Clk_slow           | NanoProcessor_0/PC_4bit_0/Q_reg[7]_4[0]                                                  | RunBtn_IBUF                                  |                3 |             16 |
+|  Clk_slow           | NanoProcessor_0/PC_4bit_0/Q_reg[7]_3[0]                                                  | RunBtn_IBUF                                  |                3 |             16 |
+|  Clk_IBUF_BUFG      |                                                                                          |                                              |                5 |             16 |
+|  Clk_slow           | NanoProcessor_0/PC_4bit_0/Y[6]                                                           | RunBtn_IBUF                                  |                3 |             16 |
+|  Clk_slow           | NanoProcessor_0/PC_4bit_0/Q_reg[7]_2[0]                                                  | RunBtn_IBUF                                  |                2 |             16 |
+|  Clk_slow           | NanoProcessor_0/PC_4bit_0/Y[4]                                                           | RunBtn_IBUF                                  |               10 |             28 |
+|  Slow_Clk0/clkSlow2 | input_ins_sig[15]_i_1_n_0                                                                |                                              |                4 |             32 |
+|  Clk_IBUF_BUFG      | NanoProcessor_0/RAM_0/Decoder_4_to_16_0/Decoder_3_to_8_1/Decoder_2_to_4_0/Q_reg[15]_1[0] | RamReset_IBUF                                |               11 |             32 |
+|  Clk_IBUF_BUFG      | NanoProcessor_0/RAM_0/Decoder_4_to_16_0/Decoder_3_to_8_1/Decoder_2_to_4_0/Q_reg[15]_2[0] | RamReset_IBUF                                |                7 |             32 |
+|  Clk_IBUF_BUFG      | NanoProcessor_0/RAM_0/Decoder_4_to_16_0/Decoder_3_to_8_1/Decoder_2_to_4_0/Q_reg[15][0]   | RamReset_IBUF                                |                9 |             32 |
+|  Clk_IBUF_BUFG      | NanoProcessor_0/RAM_0/Decoder_4_to_16_0/Decoder_3_to_8_1/Decoder_2_to_4_0/Q_reg[15]_0[0] | RamReset_IBUF                                |                3 |             32 |
+|  Clk_IBUF_BUFG      | NanoProcessor_0/RAM_0/Decoder_4_to_16_0/Decoder_3_to_8_1/Decoder_2_to_4_1/Q_reg[15]_2[0] | RamReset_IBUF                                |                9 |             32 |
+|  Clk_IBUF_BUFG      | NanoProcessor_0/RAM_0/Decoder_4_to_16_0/Decoder_3_to_8_1/Decoder_2_to_4_1/Q_reg[15][0]   | RamReset_IBUF                                |                4 |             32 |
+|  Clk_IBUF_BUFG      | NanoProcessor_0/RAM_0/Decoder_4_to_16_0/Decoder_3_to_8_1/Decoder_2_to_4_1/Q_reg[15]_1[0] | RamReset_IBUF                                |                6 |             32 |
+|  Clk_IBUF_BUFG      | NanoProcessor_0/RAM_0/Decoder_4_to_16_0/Decoder_3_to_8_1/Decoder_2_to_4_1/Q_reg[15]_0[0] | RamReset_IBUF                                |                4 |             32 |
+|  Clk_IBUF_BUFG      | NanoProcessor_0/RAM_0/Decoder_4_to_16_0/Decoder_3_to_8_0/Decoder_2_to_4_0/Q_reg[15][0]   | RamReset_IBUF                                |                4 |             32 |
+|  Clk_IBUF_BUFG      | NanoProcessor_0/RAM_0/Decoder_4_to_16_0/Decoder_3_to_8_0/Decoder_2_to_4_1/Q_reg[15]_1[0] | RamReset_IBUF                                |                5 |             32 |
+|  Clk_IBUF_BUFG      | NanoProcessor_0/RAM_0/Decoder_4_to_16_0/Decoder_3_to_8_0/Decoder_2_to_4_0/Q_reg[15]_1[0] | RamReset_IBUF                                |                4 |             32 |
+|  Clk_IBUF_BUFG      | NanoProcessor_0/RAM_0/Decoder_4_to_16_0/Decoder_3_to_8_0/Decoder_2_to_4_1/Q_reg[15]_0[0] | RamReset_IBUF                                |                6 |             32 |
+|  Clk_IBUF_BUFG      | NanoProcessor_0/RAM_0/Decoder_4_to_16_0/Decoder_3_to_8_0/Decoder_2_to_4_1/Q_reg[15][0]   | RamReset_IBUF                                |                5 |             32 |
+|  Clk_IBUF_BUFG      | NanoProcessor_0/RAM_0/Decoder_4_to_16_0/Decoder_3_to_8_0/Decoder_2_to_4_0/E[0]           | RamReset_IBUF                                |                5 |             32 |
+|  Clk_IBUF_BUFG      | NanoProcessor_0/RAM_0/Decoder_4_to_16_0/Decoder_3_to_8_0/Decoder_2_to_4_1/Q_reg[15]_2[0] | RamReset_IBUF                                |                7 |             32 |
+|  Clk_IBUF_BUFG      | NanoProcessor_0/RAM_0/Decoder_4_to_16_0/Decoder_3_to_8_0/Decoder_2_to_4_0/Q_reg[15]_0[0] | RamReset_IBUF                                |                3 |             32 |
+|  Clk_IBUF_BUFG      |                                                                                          | NanoProcessor_0/Slow_Clk_0/count[31]_i_1_n_0 |                8 |             62 |
+|  Clk_IBUF_BUFG      |                                                                                          | Slow_Clk0/count[31]_i_1__0_n_0               |                8 |             62 |
+|  Clk_IBUF_BUFG      |                                                                                          | SevenSegDispHandler_0/clear                  |                8 |             64 |
++---------------------+------------------------------------------------------------------------------------------+----------------------------------------------+------------------+----------------+
+
+

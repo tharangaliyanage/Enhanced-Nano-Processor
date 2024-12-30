@@ -1,0 +1,47 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: E:/Softwares/Xillinx/Vivado/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 2a8705502eb04e88b58928851681e9d0 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot EnclosureNanoProcessor_TB_behav xil_defaultlib.EnclosureNanoProcessor_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk [slow_clk_default]
+Compiling architecture behavioral of entity xil_defaultlib.Ins_Decoder [ins_decoder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_2_to_4 [decoder_2_to_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_3_to_8 [decoder_3_to_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Decoder_4_to16 [decoder_4_to16_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_16way_1bit [mux_16way_1bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_16_to_1_16bit [mux_16_to_1_16bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_16Bit0 [reg_16bit0_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_16Bit1 [reg_16bit1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_16Bit2 [reg_16bit2_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_16Bit3 [reg_16bit3_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_16Bit4 [reg_16bit4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_16Bit5 [reg_16bit5_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_16Bit6 [reg_16bit6_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_16Bit7 [reg_16bit7_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_16bit [reg_16bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.RAM [ram_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2way_8bit [mux_2way_8bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.PC_4bit [pc_4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.HA [ha_default]
+Compiling architecture behavioral of entity xil_defaultlib.FA [fa_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA_4 [rca_4_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_2way_4bit [mux_2way_4bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg [reg_default]
+Compiling architecture behavioral of entity xil_defaultlib.Reg_Bank_16byte [reg_bank_16byte_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8_to_1 [mux_8_to_1_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_8way_8bit [mux_8way_8bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.Mux_16way_8bit [mux_16way_8bit_default]
+Compiling architecture behavioral of entity xil_defaultlib.RCA_8 [rca_8_default]
+Compiling architecture behavioral of entity xil_defaultlib.Processor [processor_default]
+Compiling architecture behavioral of entity xil_defaultlib.SevenSegDispHandler [sevensegdisphandler_default]
+Compiling architecture behavioral of entity xil_defaultlib.Slow_Clk2 [slow_clk2_default]
+Compiling architecture behavioral of entity xil_defaultlib.EnclosureNanoProcessor [enclosurenanoprocessor_default]
+Compiling architecture behavioral of entity xil_defaultlib.enclosurenanoprocessor_tb
+Built simulation snapshot EnclosureNanoProcessor_TB_behav
